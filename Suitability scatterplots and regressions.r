@@ -6,7 +6,7 @@ require(raster)
 require(rasterVis)
 require(lattice)
 require(fBasics)
-load("Eske_Americas.RData")
+load("Americas.RData")
 
 colX <- seqPalette(length(unique(ls(pattern = "Amer_forecast_suit_"))) + 6, "Oranges")
 colX2 <- colX[c(7:(length(unique(ls(pattern = "Amer_forecast_suit_"))) + 6))]
